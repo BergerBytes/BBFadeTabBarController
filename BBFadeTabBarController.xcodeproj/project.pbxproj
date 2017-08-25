@@ -10,6 +10,10 @@
 		4CB60FA71F4F40E400440D01 /* BBFadeTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB60F9D1F4F40E400440D01 /* BBFadeTabBarController.framework */; };
 		4CB60FAC1F4F40E400440D01 /* BBFadeTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB60FAB1F4F40E400440D01 /* BBFadeTabBarControllerTests.swift */; };
 		4CB60FAE1F4F40E400440D01 /* BBFadeTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB60FA01F4F40E400440D01 /* BBFadeTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB60FB81F4F411500440D01 /* BBFadeViewControllerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB60FB71F4F411500440D01 /* BBFadeViewControllerAnimator.swift */; };
+		4CB60FBA1F4F418900440D01 /* BBFadeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB60FB91F4F418900440D01 /* BBFadeTabBarController.swift */; };
+		939E531F736CD593E53D6AD1 /* Pods_BBFadeTabBarControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19CEA4FE3CA4BBDEF2E6397 /* Pods_BBFadeTabBarControllerTests.framework */; };
+		D9C05D7DEDF623DE32FDA2F8 /* Pods_BBFadeTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD2F1E8395B0DBEFBB81BF9 /* Pods_BBFadeTabBarController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DD9FF458CD4752BC788671 /* Pods-BBFadeTabBarControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBFadeTabBarControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBFadeTabBarControllerTests/Pods-BBFadeTabBarControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34F2AC59308DC2E63DBF8197 /* Pods-BBFadeTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBFadeTabBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBFadeTabBarController/Pods-BBFadeTabBarController.release.xcconfig"; sourceTree = "<group>"; };
 		4CB60F9D1F4F40E400440D01 /* BBFadeTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBFadeTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB60FA01F4F40E400440D01 /* BBFadeTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBFadeTabBarController.h; sourceTree = "<group>"; };
 		4CB60FA11F4F40E400440D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB60FA61F4F40E400440D01 /* BBFadeTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBFadeTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB60FAB1F4F40E400440D01 /* BBFadeTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBFadeTabBarControllerTests.swift; sourceTree = "<group>"; };
 		4CB60FAD1F4F40E400440D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB60FB71F4F411500440D01 /* BBFadeViewControllerAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBFadeViewControllerAnimator.swift; sourceTree = "<group>"; };
+		4CB60FB91F4F418900440D01 /* BBFadeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBFadeTabBarController.swift; sourceTree = "<group>"; };
+		54AEA411CE8EDC01800BBA81 /* Pods-BBFadeTabBarControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBFadeTabBarControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBFadeTabBarControllerTests/Pods-BBFadeTabBarControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		57F4DFCB069EF5056E9CDC0A /* Pods-BBFadeTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBFadeTabBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBFadeTabBarController/Pods-BBFadeTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD2F1E8395B0DBEFBB81BF9 /* Pods_BBFadeTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBFadeTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19CEA4FE3CA4BBDEF2E6397 /* Pods_BBFadeTabBarControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBFadeTabBarControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C05D7DEDF623DE32FDA2F8 /* Pods_BBFadeTabBarController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB60FA71F4F40E400440D01 /* BBFadeTabBarController.framework in Frameworks */,
+				939E531F736CD593E53D6AD1 /* Pods_BBFadeTabBarControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A582902291027B1440AF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD2F1E8395B0DBEFBB81BF9 /* Pods_BBFadeTabBarController.framework */,
+				E19CEA4FE3CA4BBDEF2E6397 /* Pods_BBFadeTabBarControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CB60F931F4F40E400440D01 = {
 			isa = PBXGroup;
 			children = (
 				4CB60F9F1F4F40E400440D01 /* BBFadeTabBarController */,
 				4CB60FAA1F4F40E400440D01 /* BBFadeTabBarControllerTests */,
 				4CB60F9E1F4F40E400440D01 /* Products */,
+				F6CF12A01980FB8EA72A93CD /* Pods */,
+				19A582902291027B1440AF9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				4CB60FA01F4F40E400440D01 /* BBFadeTabBarController.h */,
+				4CB60FB71F4F411500440D01 /* BBFadeViewControllerAnimator.swift */,
+				4CB60FB91F4F418900440D01 /* BBFadeTabBarController.swift */,
 				4CB60FA11F4F40E400440D01 /* Info.plist */,
 			);
 			path = BBFadeTabBarController;
@@ -84,6 +111,17 @@
 				4CB60FAD1F4F40E400440D01 /* Info.plist */,
 			);
 			path = BBFadeTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		F6CF12A01980FB8EA72A93CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57F4DFCB069EF5056E9CDC0A /* Pods-BBFadeTabBarController.debug.xcconfig */,
+				34F2AC59308DC2E63DBF8197 /* Pods-BBFadeTabBarController.release.xcconfig */,
+				00DD9FF458CD4752BC788671 /* Pods-BBFadeTabBarControllerTests.debug.xcconfig */,
+				54AEA411CE8EDC01800BBA81 /* Pods-BBFadeTabBarControllerTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB60FB11F4F40E400440D01 /* Build configuration list for PBXNativeTarget "BBFadeTabBarController" */;
 			buildPhases = (
+				C2A5B7D02D4333D617246E95 /* [CP] Check Pods Manifest.lock */,
 				4CB60F981F4F40E400440D01 /* Sources */,
 				4CB60F991F4F40E400440D01 /* Frameworks */,
 				4CB60F9A1F4F40E400440D01 /* Headers */,
 				4CB60F9B1F4F40E400440D01 /* Resources */,
+				AA0DEAE95604C2E4CE9EC234 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB60FB41F4F40E400440D01 /* Build configuration list for PBXNativeTarget "BBFadeTabBarControllerTests" */;
 			buildPhases = (
+				47092B0B0C376F09C004156B /* [CP] Check Pods Manifest.lock */,
 				4CB60FA21F4F40E400440D01 /* Sources */,
 				4CB60FA31F4F40E400440D01 /* Frameworks */,
 				4CB60FA41F4F40E400440D01 /* Resources */,
+				72FBD6D6E0E7977BCF69BBA1 /* [CP] Embed Pods Frameworks */,
+				2A9BB987B7B0EB62583BB76A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 					4CB60F9C1F4F40E400440D01 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 77N74LDXL5;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					4CB60FA51F4F40E400440D01 = {
@@ -193,11 +237,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A9BB987B7B0EB62583BB76A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBFadeTabBarControllerTests/Pods-BBFadeTabBarControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47092B0B0C376F09C004156B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72FBD6D6E0E7977BCF69BBA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBFadeTabBarControllerTests/Pods-BBFadeTabBarControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0DEAE95604C2E4CE9EC234 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBFadeTabBarController/Pods-BBFadeTabBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A5B7D02D4333D617246E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CB60F981F4F40E400440D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB60FB81F4F411500440D01 /* BBFadeViewControllerAnimator.swift in Sources */,
+				4CB60FBA1F4F418900440D01 /* BBFadeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +447,9 @@
 		};
 		4CB60FB21F4F40E400440D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F4DFCB069EF5056E9CDC0A /* Pods-BBFadeTabBarController.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 77N74LDXL5;
@@ -332,17 +458,21 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BBFadeTabBarController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bergerbytes.BBFadeTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4CB60FB31F4F40E400440D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F2AC59308DC2E63DBF8197 /* Pods-BBFadeTabBarController.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 77N74LDXL5;
@@ -351,6 +481,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BBFadeTabBarController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bergerbytes.BBFadeTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,7 +492,9 @@
 		};
 		4CB60FB51F4F40E400440D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DD9FF458CD4752BC788671 /* Pods-BBFadeTabBarControllerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 77N74LDXL5;
 				INFOPLIST_FILE = BBFadeTabBarControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -373,7 +506,9 @@
 		};
 		4CB60FB61F4F40E400440D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AEA411CE8EDC01800BBA81 /* Pods-BBFadeTabBarControllerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 77N74LDXL5;
 				INFOPLIST_FILE = BBFadeTabBarControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -402,6 +537,7 @@
 				4CB60FB31F4F40E400440D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB60FB41F4F40E400440D01 /* Build configuration list for PBXNativeTarget "BBFadeTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +546,7 @@
 				4CB60FB61F4F40E400440D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
