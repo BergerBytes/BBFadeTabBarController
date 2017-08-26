@@ -1,5 +1,7 @@
 # BBFadeTabBarController
 
+![alt tag](https://media.giphy.com/media/kpkD9GWuxTNFS/giphy.gif)
+
 ## Installation
 
 BBFadeTabBarController is available through [CocoaPods](http://cocoapods.org). To install
